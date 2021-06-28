@@ -1,0 +1,27 @@
+.banner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: 500px;
+  margin-bottom: 30px;
+}
+
+.banner__typo {
+  padding: 50px;
+  padding-left: 200px;
+}
+
+.banner__typo h2 {
+  font-size: 3.5rem;
+}
+
+.banner__typo h2 span {
+  color: #f54748;
+}
+.banner__typo p {
+  font-weight: 500;
+}
+
+.banner__illus {
+  background: url("./assets/The\ Munchies\ -\ Bowl.png") center right 200px /
+    500px no-repeat;
+}

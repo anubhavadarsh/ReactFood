@@ -1,0 +1,67 @@
+.mealItem__card {
+  box-sizing: content-box;
+  background: white;
+  padding: 20px;
+  padding-left: 280px;
+}
+
+.mealItem__header {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.mealItem__desc {
+  line-height: 1.2;
+  font-weight: 300;
+}
+
+.mealItem__button {
+  background: #f54748;
+  padding: 5px 15px;
+  border: none;
+  margin-right: 20px;
+
+  color: white;
+  font-size: 0.7rem;
+  font-weight: 700;
+
+  cursor: pointer;
+
+  transition: background-color 0.2s ease-in;
+}
+
+.mealItem__button:hover {
+  background-color: hsl(360, 90%, 45%);
+}
+
+.mealItem__price {
+  display: inline-block;
+  font-weight: 500;
+}
+
+.mealItem__price::first-letter {
+  font-weight: 700;
+}
+
+.mealItem__form {
+  display: inline-block;
+  margin-left: 20px;
+}
+.mealItem__form__input {
+  width: 20px;
+  border: 2px solid rgba(150, 148, 148, 0.658);
+  border-radius: 5px;
+}
+.mealItem__form__input:focus {
+  outline: none;
+}
+
+.mealItem__form__input::-webkit-outer-spin-button,
+.mealItem__form__input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* .mealItem__card:last-of-type .mealItem__button {
+  margin-top: 25px;
+} */

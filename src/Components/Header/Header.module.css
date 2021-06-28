@@ -1,0 +1,53 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  font-family: "Montserrat", sans-serif;
+}
+
+.header__logo {
+  background: url("./assets/local_bar_black_48dp.svg") no-repeat center left 5px /
+    24px;
+  padding-left: 30px;
+
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 2;
+
+  cursor: default;
+}
+
+.header__logo__span {
+  color: #f54748;
+}
+
+.header__button {
+  align-self: center;
+
+  background: url("./assets/shopping_cart_white_36dp.svg") no-repeat left 25px
+    center / 15px #f54748;
+  padding: 12px 48px;
+  padding-right: 34px;
+  border: none;
+
+  color: white;
+  font-size: 0.7rem;
+  font-weight: 700;
+
+  cursor: pointer;
+
+  transition: background-color 0.2s ease-in;
+}
+
+.header__button:hover {
+  background-color: hsl(360, 90%, 45%);
+}
+
+.header__button__span {
+  background-color: #fef5f5;
+  padding: 1px 5px;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-left: 5px;
+
+  color: black;
+}

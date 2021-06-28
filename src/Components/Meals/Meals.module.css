@@ -1,0 +1,29 @@
+.meals {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  width: 75%;
+  margin: auto;
+}
+
+.mealItem {
+  flex: 1 234px;
+  margin: 0px 30px 30px 0;
+}
+
+.mealItem__1 {
+  background: url("./assets/Wormies\ -\ Sushi.png") no-repeat center left 10px /
+    270px white;
+}
+.mealItem__2 {
+  background: url("./assets/Wormies\ -\ Tacos.png") no-repeat center left 10px /
+    270px white;
+}
+.mealItem__3 {
+  background: url("./assets/Wormies\ -\ Breakfast.png") no-repeat center left
+    10px / 250px white;
+}
+.mealItem__4 {
+  background: url("./assets/Wormies\ -\ Pizza.png") no-repeat center left 10px /
+    250px white;
+}
