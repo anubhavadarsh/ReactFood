@@ -7,7 +7,7 @@ import Meals from "./Components/Meals/Meals";
 
 function App() {
   const [totalItem, setTotalItem] = useState(0);
-
+  //this is a comment
   function submitHandler(itemQnt) {
     setTotalItem(itemQnt);
   }
